@@ -166,7 +166,7 @@
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
-        MOUSE {
+        layer_3 {
             bindings = <
 &trans          &kp UP_ARROW    &trans           &trans        &kp LS(LG(N8))                                                 &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &trans           &kp LC(LG(Q))
 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &kp LS(LG(N7))                               &bt BT_CLR_ALL  &bt BT_DISC 1  &bt BT_DISC 0   &kp UP_ARROW    &trans           &kp LG(SPACE)
