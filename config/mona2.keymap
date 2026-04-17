@@ -158,8 +158,8 @@
         layer_2 {
             bindings = <
 &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &trans  &kp LC(NUMBER_3)  &kp LS(LG(T))                               &kp N7        &kp N8        &kp N9        &kp EQUAL  &kp PERCENT
-&kp LA(LG(UP_ARROW))    &kp LG(MINUS)            &trans  &kp LC(NUMBER_1)  &kp LS(LG(NUMBER_4))            &kp COLON   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp AMPERSAND
-&kp LA(LG(DOWN_ARROW))  &kp LG(PLUS)             &trans  &kp LC(NUMBER_2)  &kp LS(LG(NUMBER_2))  &trans    &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &kp UNDERSCORE
+&kp LA(LG(UP_ARROW))    &kp LG(MINUS)            &trans  &kp LA(LG(X))     &kp LS(LG(NUMBER_4))            &kp COLON   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp AMPERSAND
+&kp LA(LG(DOWN_ARROW))  &kp LG(PLUS)             &trans  &kp LA(LG(Z))     &kp LS(LG(NUMBER_2))  &trans    &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &kp UNDERSCORE
 &trans                  &trans                   &trans  &kp LEFT_COMMAND  &trans                &trans    &trans      &kp N0                                               &trans
             >;
 
@@ -169,7 +169,7 @@
         layer_3 {
             bindings = <
 &trans          &kp UP_ARROW    &trans           &trans        &kp LS(LG(N8))                                                 &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &trans           &kp LC(LG(Q))
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &kp LS(LG(N7))                               &bt BT_CLR_ALL  &bt BT_DISC 1  &bt BT_DISC 0   &kp UP_ARROW    &trans           &kp LG(SPACE)
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &kp LS(LG(N7))                                 &bt BT_CLR_ALL  &bt BT_DISC 1  &bt BT_DISC 0   &kp UP_ARROW    &trans           &kp LG(SPACE)
 &trans          &trans          &trans           &trans        &kp LS(LG(NUMBER_6))  &trans                   &trans          &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(W)
 &kp LEFT_SHIFT  &kp LC(SPACE)   &kp LA(SPACE)    &kp LEFT_WIN  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)    &mkp MB3        &mkp MB4                                                        &trans
             >;
