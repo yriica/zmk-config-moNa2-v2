@@ -157,7 +157,7 @@
 
         layer_2 {
             bindings = <
-&kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &trans  &kp LC(NUMBER_3)  &kp LS(LG(T))                               &kp N7        &kp N8        &kp N9        &kp EQUAL  &kp PERCENT
+&kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &trans  &kp LA(LG(C))     &kp LS(LG(T))                               &kp N7        &kp N8        &kp N9        &kp EQUAL  &kp PERCENT
 &kp LA(LG(UP_ARROW))    &kp LG(MINUS)            &trans  &kp LA(LG(X))     &kp LS(LG(NUMBER_4))            &kp COLON   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp AMPERSAND
 &kp LA(LG(DOWN_ARROW))  &kp LG(PLUS)             &trans  &kp LA(LG(Z))     &kp LS(LG(NUMBER_2))  &trans    &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &kp UNDERSCORE
 &trans                  &trans                   &trans  &kp LEFT_COMMAND  &trans                &trans    &trans      &kp N0                                               &trans
