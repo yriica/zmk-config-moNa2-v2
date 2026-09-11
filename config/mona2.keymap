@@ -136,7 +136,7 @@
         default_layer {
             bindings = <
 &kp TAB           &kp W                   &kp E                   &kp R         &kp T                                                                &kp Y        &kp U  &kp I     &kp O     &kp BACKSPACE
-&kp A             &kp S                   &lt 2 D                 &kp F         &kp G                                                   &kp MINUS    &kp H        &kp J  &kp K     &kp L     &kp ENTER
+&kp A             &kp S                   &lt 2 D                 &kp F         &kp G                                                   &kp MINUS    &kp H        &kp J  &kp K     &lt 2 L   &kp ENTER
 &mt LEFT_SHIFT Z  &kp X                   &kp C                   &kp V         &kp B                    &lt 2 SPACE                    &kp SLASH    &kp N        &kp M  &mkp MB1  &mkp MB2  &lt 3 ESCAPE
 &mt LEFT_SHIFT Q  &mt LEFT_CONTROL COMMA  &mt RIGHT_SHIFT PERIOD  &kp LEFT_GUI  &mt LEFT_ALT LANGUAGE_1  &mt LEFT_COMMAND LANGUAGE_2    &lt 1 SPACE  &lt 1 SPACE                             &mo 3
             >;
@@ -157,10 +157,10 @@
 
         layer_2 {
             bindings = <
-&kp LA(LG(LEFT_ARROW))   &kp LG(W)      &kp LA(LG(C))  &kp LA(LC(T))     &kp LS(LG(T))                                             &kp N7        &kp N8        &kp N9        &kp EQUAL  &kp PERCENT
-&kp LA(LG(RIGHT_ARROW))  &kp LG(MINUS)  &trans         &kp LA(A)         &kp LS(LG(NUMBER_4))                          &kp COLON   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp AMPERSAND
-&kp LEFT_SHIFT           &kp LG(PLUS)   &kp LA(LG(B))  &kp LA(F)         &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_5))    &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &kp UNDERSCORE
-&trans                   &trans         &trans         &kp LEFT_COMMAND  &kp RIGHT_SHIFT       &trans                  &trans      &kp N0                                               &trans
+&kp LA(LG(LEFT_ARROW))   &kp LG(W)      &kp LA(LG(C))  &kp LA(LC(LS(LG(D))))  &kp LS(LG(T))                                                &trans                 &kp LS(LA(LC(LG(P))))  &kp LA(LC(N))  &trans  &trans
+&kp LA(LG(RIGHT_ARROW))  &kp LG(MINUS)  &trans         &kp LA(LS(LC(LG(N))))  &kp LS(LG(NUMBER_4))                   &trans                &trans                 &kp LS(LA(LC(LG(E))))  &kp LA(LC(P))  &trans  &trans
+&kp LEFT_SHIFT           &kp LG(PLUS)   &kp LA(LG(B))  &kp LA(LS(LC(LG(A))))  &kp LS(LG(NUMBER_2))  &kp LG(SPACE)    &trans                &trans                 &kp LA(LC(LG(LS(Q))))  &kp LA(LC(G))  &trans  &trans
+&trans                   &trans         &trans         &kp LS(LA(LC(LG(F))))  &kp LG(LS(N5))        &trans           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
