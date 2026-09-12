@@ -157,10 +157,10 @@
 
         layer_2 {
             bindings = <
-&kp LA(LG(LEFT_ARROW))   &kp LA(LC(T))  &kp LA(LG(C))  &kp LA(LC(LS(LG(D))))  &kp LS(LG(T))                                                &trans                 &kp LS(LA(LC(LG(P))))  &kp LA(LC(N))  &trans  &kp LC(LA(G))
-&kp LA(LG(RIGHT_ARROW))  &kp LG(MINUS)  &trans         &kp LA(LS(LC(LG(N))))  &kp LS(LG(NUMBER_4))                   &trans                &trans                 &kp LS(LA(LC(LG(E))))  &kp LA(LC(P))  &trans  &kp LA(LC(C))
-&kp LEFT_SHIFT           &kp LG(PLUS)   &kp LA(LG(B))  &kp LA(LS(LC(LG(A))))  &kp LS(LG(NUMBER_2))  &kp LG(SPACE)    &trans                &trans                 &kp LA(LC(LG(LS(Q))))  &kp LA(LC(B))  &trans  &kp LC(LA(L))
-&trans                   &trans         &trans         &kp LS(LA(LC(LG(F))))  &kp LG(LS(N5))        &trans           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                                                &trans
+&kp LA(LG(LEFT_ARROW))   &kp LA(LC(T))  &kp LA(LG(C))  &kp LA(LC(LS(LG(D))))  &kp LS(LG(T))                                                       &trans                 &kp LS(LA(LC(LG(P))))  &kp LA(LC(N))  &trans  &kp LC(LA(G))
+&kp LA(LG(RIGHT_ARROW))  &kp LG(MINUS)  &trans         &kp LA(LS(LC(LG(N))))  &kp LS(LG(NUMBER_4))                          &trans                &trans                 &kp LS(LA(LC(LG(E))))  &kp LA(LC(P))  &trans  &kp LA(LC(C))
+&kp LEFT_SHIFT           &kp LG(PLUS)   &kp LA(LG(B))  &kp LA(LS(LC(LG(A))))  &kp LS(LG(NUMBER_2))  &kp LG(LS(NUMBER_6))    &trans                &trans                 &kp LA(LC(LG(LS(Q))))  &kp LA(LC(B))  &trans  &kp LC(LA(L))
+&trans                   &trans         &trans         &kp LS(LA(LC(LG(F))))  &kp LG(LS(N5))        &kp LS(LG(N9))          &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
@@ -168,10 +168,10 @@
 
         layer_3 {
             bindings = <
-&trans          &kp UP_ARROW    &trans           &trans        &kp LA(P)                                                      &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &trans           &kp LC(LG(Q))
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &kp LA(E)                                      &bt BT_CLR_ALL  &bt BT_DISC 1  &bt BT_DISC 0   &kp UP_ARROW    &trans           &kp LG(SPACE)
-&trans          &trans          &trans           &trans        &kp LS(LG(NUMBER_6))  &trans                   &trans          &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(W)
-&kp LEFT_SHIFT  &kp LC(SPACE)   &kp LA(SPACE)    &kp LEFT_WIN  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)    &mkp MB3        &mkp MB4                                                        &trans
+&trans          &kp UP_ARROW    &trans           &trans         &kp LS(LA(LG(LC(Q))))                                           &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2  &trans  &kp LC(LG(Q))
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &kp LS(LA(LC(LG(P))))                           &bt BT_CLR_ALL  &bt BT_DISC 1  &bt BT_DISC 0  &trans        &trans  &kp LG(SPACE)
+&trans          &trans          &trans           &kp LA(LC(N))  &kp LA(LC(LS(LG(T))))  &trans                   &trans          &trans         &trans         &trans        &trans  &kp LG(W)
+&kp LEFT_SHIFT  &kp LC(SPACE)   &kp LA(SPACE)    &kp LEFT_WIN   &kp LG(LEFT_BRACKET)   &kp LG(RIGHT_BRACKET)    &mkp MB3        &kp LG(SPACE)                                       &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
